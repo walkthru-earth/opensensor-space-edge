@@ -1,11 +1,11 @@
 name: Python Daily Aggregation
 
 on:
-  schedule:
-    # Runs at 00:20 UTC daily
-    - cron: '20 0 * * *'
-  push:
-    branches: [ main ]
+  # schedule:
+  #   # Runs at 00:20 UTC daily
+  #   - cron: '20 0 * * *'
+  # push:
+  #   branches: [ main ]
   workflow_dispatch:
 
 jobs:
